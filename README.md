@@ -20,12 +20,12 @@ Follow the steps below to deploy resources into your Azure subscription:
    git clone <repository-url>
 
 
-##### Login to Azure Open a terminal and login to your Azure account using the Azure CLI.
+2 **Login to Azure Open a terminal and login to your Azure account using the Azure CLI**
    az login
 
 ##### Follow the prompts in your browser to complete the authentication process.
 
-##### Initialize Terraform Navigate to the directory containing the main.tf file and initialize Terraform.
+3. **Initialize Terraform Navigate to the directory containing the main.tf file and initialize Terraform**
    cd <directory-containing-main.tf>
    terraform init
 
